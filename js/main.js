@@ -252,6 +252,9 @@ $('.image-popup').magnificPopup({
 
   window.googleTranslateElementInit = function() {
     new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,si'}, 'google_translate_element');
+    if (document.getElementById('google_translate_mobile')) {
+      new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,si'}, 'google_translate_mobile');
+    }
   };
 
 })(jQuery);
