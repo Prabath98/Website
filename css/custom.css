@@ -9,3 +9,15 @@
 /* ----------------------------------------------------
 	You can put your custom css code here: 
 -------------------------------------------------------*/
+
+/* Service image animation */
+.service__thumb img.service-anim {
+    animation: servicePulse 6s ease-in-out infinite;
+    display: block;
+}
+
+@keyframes servicePulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
