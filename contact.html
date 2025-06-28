@@ -163,7 +163,36 @@
                             </div>
                         </div>
                     </div>
-                </div>  
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="htc__contact__form__wrap">
+                            <form id="contact-form" method="POST" action="/contact">
+                                <div class="single-contact-inner">
+                                    <div class="single-contact-form">
+                                        <div class="contact-box name">
+                                            <span>Your Name*</span>
+                                            <input type="text" name="name" required>
+                                        </div>
+                                        <div class="contact-box email">
+                                            <span>Your Email*</span>
+                                            <input type="email" name="email" required>
+                                        </div>
+                                    </div>
+                                    <div class="single-contact-form">
+                                        <div class="contact-box message">
+                                            <span>Your Message*</span>
+                                            <textarea name="message" required></textarea>
+                                        </div>
+                                        <div class="contact-btn">
+                                            <button type="submit" class="htc__btn btn--theme">Send</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- End Contact Address -->
@@ -411,6 +440,7 @@
     <script src="js/waypoints.min.js"></script>
     <!-- Main js file that contents all jQuery plugins activation. -->
     <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
 
 </body>
 
